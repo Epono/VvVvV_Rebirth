@@ -2,6 +2,10 @@
 
 namespace Unite
 {
+
+	//Voir si les méthodes n'aurait pas une meilleure place dans le script du player
+	// MoveTo , Wait, PutTrap, etc...
+
 	public class Action
 	{
 		int cost_in_pa;
@@ -9,6 +13,10 @@ namespace Unite
 
 		public Action (int id)
 		{
+			//TO DO 
+			//Trouver un moyen de modifier ce switch un peu limite
+
+
 			switch (id) {
 			case 0:
 				MoveTo (1);
